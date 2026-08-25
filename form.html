@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qeydiyyat Formu</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <script src="form.js"></script>
+    <div class="form-container">
+        <h2>Qeydiyyat Formu</h2>
+        <form id="registerForm">
+
+           
+            <div class="form-group">
+                <label for="username">İstifadəçi adı:</label>
+                <input type="text" id="username" placeholder="İstifadəçi adınız">
+            </div>
+
+           
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder="nümunə@mail.com">
+            </div>
+
+        
+            <div class="form-group">
+                <label for="password">Şifrə:</label>
+                <input type="password" id="password" placeholder="Şifrəniz">
+            </div>
+
+          
+            <div class="form-group">
+                <label for="age">Yaş: </label>
+                <input type="number" id="age" placeholder="Yaşınız">
+            </div>
+
+          
+            <div class="form-group">
+                <label>Cins:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="gender" value="Kişi"> Kişi</label>
+                    <label><input type="radio" name="gender" value="Qadın"> Qadın</label>
+                    <label><input type="radio" name="gender" value="Digər">Qeyd etmək istəmirəm</label>
+                </div>
+            </div>
+
+           
+            <div class="form-group">
+                <label>Hobbilər:</label>
+                <div class="checkbox-group">
+                    <label><input type="checkbox" name="hobbies" value="Idman"> İdman</label>
+                    <label><input type="checkbox" name="hobbies" value="Musiqi"> Musiqi</label>
+                    <label><input type="checkbox" name="hobbies" value="Kitab"> Kitab oxumaq</label>
+                </div>
+            </div>
+
+           
+            <div class="form-group">
+                <label for="country">Ölkə:</label>
+                <select id="country">
+                    <option value="">Ölkə seçin</option>
+                    <option value="Azərbaycan">Azərbaycan</option>
+                    <option value="Türkiyə">Türkiyə</option>
+                    <option value="ABŞ">ABŞ</option>
+                </select>
+            </div>
+
+            <button type="submit">Qeydiyyatdan Geç</button>
+        </form>
+    </div>
+
+    
+</body>
+</html>
